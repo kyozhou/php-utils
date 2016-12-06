@@ -1,0 +1,12 @@
+{
+    "name": "kyoz/php-utils",
+    "description": "php utilities easy to use",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "周斌",
+            "email": "kyozhou@sina.com"
+        }
+    ],
+    "require": {}
+}
