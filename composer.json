@@ -8,5 +8,8 @@
             "email": "kyozhou@sina.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": ["Network.php"]
+    }
 }

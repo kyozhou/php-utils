@@ -3,7 +3,7 @@ namespace Kyoz\Utils;
 
 class Network {
     
-    static function getEthIp($interface) {
+    static function getEthIp($interface = 'eth0') {
         $interface = escapeshellarg($interface);
         $pattern = "/inet addr:(\d+\.\d+\.\d+\.\d+)/";
         $text = shell_exec("ifconfig $internface");
